@@ -13,7 +13,7 @@ const todoList = [
     'Nộp bài tập'
 ];
 
-// Tạo miêu tả cho test case
+// Tạo miêu tả cho test case1
 
 test.describe('Tao mới một cái todo', () => {
     //Đây là test case tạo mới todo
