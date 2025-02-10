@@ -1,0 +1,59 @@
+{   
+    "Element_Locator": {
+      "username": "input[id='username']",
+      "email": "input[id='email']]",
+      "gender": "input[id='male']",
+      "hobbies": "input[id='traveling']",
+      "interest": "select[id='interests']",
+      "country": "select[id='country']",
+      "DOB": "input[id='dob']",
+      "profile_picture": "input[@id='profile']",
+      "Bio": "textarea[@id='bio']",
+      "rate_us": "id='rating'",
+      "favorite_color": "input[id='favcolor']",
+      "newsletter": "input[id='newsletter']",
+      "enable_feature": "input[id='toggleOption']",
+      "submit": "button[text()='Register']"
+    },
+
+    "User": {
+      "username": "justin",
+      "email": "justin@gmail.com",
+      "gender": "male",
+      "hobbies": "reading",
+      "Interest": "science",
+      "Country": "uk",
+      "DOB": "2000-01-01",
+      "Profile": "./testData/profile.jpg",
+      "Biography": "I am a tester",
+      "Rateus": "5",
+      "Favorite_color": "Blue",
+      "Newsletter": "Yes",
+      "Enable_feature": "Yes"
+    },
+      
+    "urls": {
+      "register_page": "https://integration-5ojmyuq-2ntakmlqwmx4i.ap-3.magentosite.cloud/"
+    },
+
+    "credentials": {
+      "valid_user": {
+        "username": "0936077989"
+      },
+    
+      "invalid_user": {
+        "username": "0936077989",
+        "password": "123456"
+      }
+    },
+
+    "buttons": {
+        "login": "btn-login",
+        "submit_OTP": "btn-verify"
+    },
+
+    "products": {
+        "simple_product": "https://integration-5ojmyuq-2ntakmlqwmx4i.ap-3.magentosite.cloud/productdetail/745-22124905-197125.html?"
+    }
+  }
+  

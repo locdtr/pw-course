@@ -42,5 +42,6 @@ test.describe('Tao mới một cái todo', () => {
         await newTodo.fill(todoList[3]);
         await newTodo.press('Enter');
         await expect(page.getByTestId('todo-title')).toHaveText([todoList[0], todoList[1], todoList[2], todoList[3]]);
+        await page.screenshot({path: 'todo.png'});
     });
 });
